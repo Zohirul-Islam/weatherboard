@@ -1,3 +1,4 @@
+import React from 'react'
 import tempmaxicon from '../../assets/icons/temp-max.svg'
 import tempminicon from '../../assets/icons/temp-min.svg'
 import humidityicon from '../../assets/icons/humidity.svg'
@@ -51,4 +52,4 @@ const WeatherCondition = () => {
   );
 };
 
-export default WeatherCondition;
+export default React.memo(WeatherCondition);
