@@ -10,5 +10,8 @@ This is a weather board .A user can visit is and see their weacther condition of
 3.create main content
 4.log in openweather and extract api key .
 5.create custom hook for api call;
-6.create context  for weather data so that we can share data any components
-7.use React.memo() for performance optimization
+6.create context following composition pattern for weather data so that we can share data any components
+7.use React.memo() for performance optimization;
+8.take data from context and populated into my dashboard components
+9.write utils for date time formate.
+10.write utility function to handle climate based image return

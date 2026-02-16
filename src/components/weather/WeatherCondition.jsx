@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import tempmaxicon from '../../assets/icons/temp-max.svg'
 import tempminicon from '../../assets/icons/temp-min.svg'
 import humidityicon from '../../assets/icons/humidity.svg'
 import cloudIcon from '../../assets/icons/cloud.svg'
 import windIcon from '../../assets/icons/wind.svg'
-
+import { WeatherContext } from '../../context'
 const WeatherCondition = () => {
+  const { weatherData } = useContext(WeatherContext);
+  console.log(weatherData);
   return (
     <div>
       <p className="text-sm lg:text-lg font-bold uppercase mb-8">
