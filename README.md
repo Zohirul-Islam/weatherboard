@@ -20,3 +20,6 @@ This is a weather board .A user can visit is and see their weacther condition of
 1.write custom hook for local storage
 2.write favourite context
 3.write favourite provider
+4.add favourite from ui and remove favourite from ui
+5.display favourite into favourite modal
+## search functionality
